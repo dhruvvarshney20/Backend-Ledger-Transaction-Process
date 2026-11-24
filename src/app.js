@@ -21,7 +21,7 @@ const transactionRoutes = require("./routes/transaction.routes")
  */
 
 app.get("/", (req, res) => {
-    res.send("Ledger Service is up and running")
+    res.send("Ledger Service is up and running on render.com")
 })
 
 app.use("/api/auth", authRouter)
